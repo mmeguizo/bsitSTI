@@ -114,7 +114,7 @@ export default function LoginScreen({ navigation }) {
 
       <AppButton title="Sign in" onPress={handleLogin} />
       <AppButton title="Sign with Google" onPress={handleGoogleLogin} />
-      <Text style={{ opacity: 0.6, marginTop: 10 }}>Try: testers@testers.com / testers</Text>
+      <Text style={{ opacity: 0.6, marginTop: 10 }}>Try: testers@testers.com / testers for credentials</Text>
     </LoginLayout>
   );
 }
